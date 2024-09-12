@@ -20,6 +20,7 @@ from sklearn.linear_model import LogisticRegression
 from tqdm import tqdm
 nltk.download('stopwords')
 nltk.download('punkt_tab')
+nltk.download('wordnet')
 
 
 # Function to load the machine learning model
