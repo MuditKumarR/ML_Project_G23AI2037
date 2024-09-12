@@ -19,6 +19,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from tqdm import tqdm
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 
 # Function to load the machine learning model
