@@ -18,6 +18,7 @@ from sklearn.metrics import confusion_matrix, classification_report, accuracy_sc
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from tqdm import tqdm
+nltk.download('stopwords')
 
 
 # Function to load the machine learning model
